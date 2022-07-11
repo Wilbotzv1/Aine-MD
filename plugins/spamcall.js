@@ -25,8 +25,8 @@ handler.tags = ['tools']
 
 handler.command = /^(spamcall)$/i
 
-handler.limit = true
+handler.limit = false
 handler.premium = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
