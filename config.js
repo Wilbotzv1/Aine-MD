@@ -2,9 +2,9 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.owner = [
-  ['6281646829895'],
-  ['6289531704997'],
-  ['6281646829895', 'Irfaan Official', true]
+  ['6285880486685'],
+  ['6285880486685'],
+  ['6285880486685', 'Willy Official', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -56,9 +56,9 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = sticker_name
-global.author = sticker_author
-global.wm = '© Irfaan Official'
+global.packname = wiliam
+global.author = willy
+global.wm = '© willy Official'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
